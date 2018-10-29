@@ -28,6 +28,11 @@ angular.module("myApp", ['color.picker']).controller("myCtrl", function ($scope,
             'id': 'edge',
             'name': 'Edge',
             'description': 'code development'
+        },
+        {
+            'id': 'youtube',
+            'name': 'Youtube',
+            'description': 'code development'
         }
     ];
     $scope.icon = {
