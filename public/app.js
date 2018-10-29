@@ -33,6 +33,11 @@ angular.module("myApp", ['color.picker']).controller("myCtrl", function ($scope,
             'id': 'youtube',
             'name': 'Youtube',
             'description': 'code development'
+        },
+        {
+            'id': 'linkedIn',
+            'name': 'LinkedIN',
+            'description': 'code development'
         }
     ];
     $scope.icon = {
