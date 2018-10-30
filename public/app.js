@@ -1,6 +1,19 @@
+var activeID=null;
+
+function reply_click(clicked_id){
+    activeID = clicked_id;
+    //update active element
+    document.getElementsByClassName('activeElement')[0].innerText=activeID;
+    console.log("active : "+activeID);
+    
+}
+
+function update(jscolor) {
+    document.getElementById(activeID).style.fill = '#' + jscolor;
+}
+
+
 angular.module("myApp", ['color.picker']).controller("myCtrl", function ($scope, $http) {
-    $scope.background = "E44949";
-    $scope.accent = "FFC600";
     $scope.generating = false;
 
     $scope.icons = [
@@ -37,6 +50,11 @@ angular.module("myApp", ['color.picker']).controller("myCtrl", function ($scope,
         {
             'id': 'linkedIn',
             'name': 'LinkedIN',
+            'description': 'code development'
+        },
+        {
+            'id': 'chrome',
+            'name': 'Chrome',
             'description': 'code development'
         }
     ];

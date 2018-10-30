@@ -194,3 +194,14 @@ svg {
         display: none;
     }
 }
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: black;
+}
+
+.note{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3em;
+    color: #505050;
+}
