@@ -66,6 +66,11 @@ angular.module("myApp", ['color.picker']).controller("myCtrl", function ($scope,
             'id': 'google',
             'name': 'Google Search',
             'description': 'code development'
+        },
+        {
+            'id': 'fb',
+            'name': 'Facebook',
+            'description': 'code development'
         }
     ];
     $scope.icon = {
