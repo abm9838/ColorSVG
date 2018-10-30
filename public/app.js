@@ -56,6 +56,11 @@ angular.module("myApp", ['color.picker']).controller("myCtrl", function ($scope,
             'id': 'chrome',
             'name': 'Chrome',
             'description': 'code development'
+        },
+        {
+            'id': 'gmap',
+            'name': 'Google Map',
+            'description': 'code development'
         }
     ];
     $scope.icon = {
